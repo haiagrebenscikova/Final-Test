@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Проверь знания HTML и CSS.</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        h1{color: red;}
+        h2{
+            color: green;
+            text-align: center;
+        }
+        .name{text-align: center;}
+        .image{
+            height: 200px;
+            width: 250px;
+            padding: 10px;
+        }
+        img{
+            width: 100px;
+            height: 50px;
+        }
+        .menu{
+            list-style: none;
+            padding-top: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: green; 
+            font-size: 15px;
+        }
+        .tag{
+            font-family: "Courier New", Courier, mono;
+            color: #069;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        .description{padding-top: 220px;}
+    </style>
+</head>
+<body>
+    <header itemscope itemtype="http://schema.org/Article">
+        <h1 class="name">Проверь свой знания HTML и CSS.</h1>
+        <h2>Найдите ошибке в коде, исправте их, а также подумайте как можно было бы улучшить код. </h2>
+    </header>
+    <main>
+        <strong>
+            Тег <span class="tag">&lt;img&gt;</span> используется для добавления картинке. Например:
+        </strong>
+        <div>
+            <img class="image" src="1.png" alt="images" align="left";>
+        </div>
+        <section class="description">
+        Тег <span class="tag">&lt;h1&gt;</span> представляет собой заголовок, так же как и <span class="tag">&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;.</span>
+        <br>
+        Тег <span class="tag">&lt;b&gt;</span> и <span class="tag">&lt;strong&gt;</span> эквиваленты.
+        </section>
+    </main>
+    <footer>
+        <ul class="menu">
+            <li><a href="/1"><img src="2.png" alt="image1">Справочник по HTML</a> </li>
+            <li><a href="/2"><img src="3.png" alt="image2">Теги HTML5</a></li>
+            <li><a href="/3"><img src="4.png" alt="image3">Знакомство с CSS</a></li>
+            <li><a href="/4"><img src="5.png" alt="image4">Основы работы с селекторами CSS</a></li>
+            <li><a href="/5"><img src="6.png" alt="image5">Как сделать верстку сайта</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

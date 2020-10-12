@@ -1,0 +1,37 @@
+.container {
+    color: black;
+    padding-top: 60px;
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -400px;
+    font-size: 300px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line1 {
+    color: black;
+    border-left: 50px solid black;
+    font-size: 250px;
+    padding: 15px;
+}
+.line2 {
+    color: black;
+    border-left: 50px solid black;
+    font-size: 300px;
+    padding: 15px;
+}
+.line3 {
+    color: black;
+    border-left: 50px solid black;
+    font-size: 350px;
+    padding: 20px 15px;
+}
+.line4 {
+    color: black;
+    border-bottom: 50px solid black;
+    width: 1275px;
+    float: right;
+    margin-top: 10px;}
+span {font-size: 100px;}
